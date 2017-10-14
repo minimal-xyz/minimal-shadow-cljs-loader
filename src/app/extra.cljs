@@ -1,5 +1,5 @@
 
 (ns app.extra)
 
-(defn async-code []
+(defn async-code! []
   (println "async code!"))
