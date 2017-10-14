@@ -1,0 +1,10 @@
+{
+  "name": "minimal-shadow-cljs-loader",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "shadow-cljs": "^2.0.15"
+  }
+}
