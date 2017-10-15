@@ -7,6 +7,7 @@
     "compile": "shadow-cljs compile app",
     "release": "shadow-cljs release app",
     "html": "cp assets/index.html target/",
+    "serve-dist": "http-server dist/",
     "serve": "http-server target/"
   },
   "devDependencies": {
