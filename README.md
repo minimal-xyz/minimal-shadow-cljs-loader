@@ -2,7 +2,7 @@
 shadow-cljs module loader example
 ---
 
-> Make sure that `:module-hash-names false`.
+> Make sure that `:module-hash-names false` when loader is used(not supported by shadow-cljs yet).
 
 ### Usage
 
@@ -16,7 +16,7 @@ Or
 
 ```bash
 yarn shadow-cljs release app
-yarn html
+yarn html-dist
 yarn serve-dist
 ```
 
