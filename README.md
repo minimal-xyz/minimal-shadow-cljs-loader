@@ -2,8 +2,6 @@
 shadow-cljs module loader example
 ---
 
-> Make sure that `:module-hash-names false` when loader is used(not supported by shadow-cljs yet).
-
 ### Usage
 
 ```bash
@@ -12,7 +10,7 @@ yarn html
 yarn serve
 ```
 
-Or
+Or in release mode:
 
 ```bash
 yarn shadow-cljs release app
