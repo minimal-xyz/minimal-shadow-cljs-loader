@@ -9,6 +9,6 @@
                           :extra {:entries [app.extra]
                                   :depends-on #{:main}}}
                 :release {:output-dir "dist/"
-                          :module-hash-names false
-                          :build-options {:manifest-name "cljs-manifest.json"}}
+                          :module-hash-names 8
+                          :build-options {:manifest-name "assets.edn"}}
                 :devtools {:after-loader app.main/reload!}}}}
